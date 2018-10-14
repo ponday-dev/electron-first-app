@@ -1,0 +1,16 @@
+{
+  "name": "first-electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "electron ./src",
+    "pack:mac": "electron-packager src ElectronSample --platform=darwin --arch=x64 --overwrite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.4",
+    "electron-packager": "^12.2.0"
+  }
+}
